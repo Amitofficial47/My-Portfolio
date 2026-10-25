@@ -10,6 +10,9 @@ const nextConfig: NextConfig = {
         loaders: ["@tailwindcss/turbopack"],
         as: "*.css",
       },
+      allowedDevOrigins: [
+        "https://7904-2409-40d7-c-f946-f516-cbb4-5d04-f0b2.ngrok-free.app",
+      ],
     },
   },
 };
